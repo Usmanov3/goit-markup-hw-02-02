@@ -1,7 +1,7 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Raleway, sans-serif;
     color: #434455;
-    background-color: ffffff ;
+    background-color: #FFFFFF ;
 
 }
 
@@ -14,13 +14,17 @@ a {
 }
 
 header {
-    width: 1440px;
-height: 72px;
+}
+
+.heaer-menu-item:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:hover {
+    color: #404bbf;
 }
 
 .main{
-    width: 1440px;
-height: 600px; 
 }
 
 .header-logo {
@@ -33,6 +37,7 @@ color: #4d5ae5;
 }
 
 .header-logo-italic {
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 117%;
@@ -57,7 +62,8 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.header-adres-menu {
+.header-adres {
+    font-style: :normal;
 }
 
 .header-adres-menu-mail {
@@ -66,6 +72,14 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.header-adres-menu-mail:hover {
+    color: #404bbf;
+}
+
+.header-adres-menu-tel:hover {
+    color: #404bbf;
 }
 
 .header-adres-menu-tel {
@@ -102,7 +116,6 @@ letter-spacing: 0.04em;
 color: #fff;
 }
 .main-content {
-    width: 1128px;
 height: 104px;
 }
 
@@ -136,12 +149,7 @@ color: #434455;
 }
 
 .main-item-team {
-    border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-width: 264px;
-height: 380px;
-background-color: #fff;
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #fff; 
 }
 
 .main-item-pirson {
@@ -165,13 +173,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .main-item-team-img {
-    width: 264px;
-    height: 260px;
 }
 
 .main-portfolio {
-    width: 1128px;
-height: 1000px;
 }
 
 .main-portfolio-title {
@@ -184,14 +188,10 @@ color: #2e2f42;
 }
 
 .main-item-portfolio {
-    width: 360px;
-height: 420px;
 background: #fff;
 }
 
 .main-item-jpg {
-    width: 360px;
-height: 300px;
 }
 
 .main-item-app {
@@ -220,7 +220,5 @@ color: #f4f4fd;
 }
 
 footer {
-    width: 1440px;
-height: 312px;
     background-color: #2e2f42;
 }
