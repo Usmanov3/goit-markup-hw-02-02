@@ -133,6 +133,22 @@ cursor: pointer
 .main-content {
 }
 
+.main-title-content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+
+}
+
+.main-item-paragraf {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
 .main-item {
 font-weight: 500;
 font-size: 20px;
@@ -193,6 +209,7 @@ color: #434455;
 }
 
 .main-portfolio-title {
+    text-transform: capitalize;
     font-weight: 700;
 font-size: 36px;
 line-height: 111%;
