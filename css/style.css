@@ -36,6 +36,10 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 
+.header-logo {
+    font-family: "Raleway", sans-serif;
+}
+
 .header-logo-italic {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -134,10 +138,6 @@ cursor: pointer
 }
 
 .main-title-content {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2e2f42;
 
 }
 
@@ -158,11 +158,10 @@ color: #2e2f42;
 }
 
 .main-item-text {
-    font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
 }
 
 .main-team {
