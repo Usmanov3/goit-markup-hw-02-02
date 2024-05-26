@@ -170,6 +170,7 @@ color: #434455;
 }
 
 .main-text-team {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -209,7 +210,6 @@ color: #434455;
 }
 
 .main-portfolio-title {
-    text-transform: capitalize;
     font-weight: 700;
 font-size: 36px;
 line-height: 111%;
