@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF ;
 
@@ -63,7 +63,7 @@ color: #2e2f42;
 }
 
 .header-adres {
-    font-style: :normal;
+    font-style: normal;
 }
 
 .header-adres-menu-mail {
@@ -108,15 +108,25 @@ color: #434455;
 }
 
 .main-btn {
-
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.04em;
 color: #fff;
+cursor: pointer ;
 }
+
+.main-btn:hover {
+    background-color: #404BBF;
+}
+
+.main-btn:focus {
+    background-color: #404BBF;
+}
+
 .main-content {
-height: 104px;
 }
 
 .main-item {
