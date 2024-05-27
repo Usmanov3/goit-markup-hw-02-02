@@ -152,7 +152,7 @@ color: #2e2f42;
 }
 
 .main-item-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
@@ -183,6 +183,14 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+
+}
+
+.main-item-text-team {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 
 }
 
