@@ -74,7 +74,7 @@ color: #2e2f42;
     font-style: normal;
 }
 
-.header-adres-menu-mail {
+.header-adres-menu-link {
     font-weight: 400;
 font-size: 16px;
 line-height: 150%;
@@ -82,21 +82,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.header-adres-menu-mail:hover {
+.header-adres-menu-link:hover, .header-adres-menu-link:focus {
     color: #404bbf;
 }
 
-.header-adres-menu-tel:hover {
-    color: #404bbf;
-}
-
-.header-adres-menu-tel {
-    font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
-}
 
 .main {
 }
@@ -194,16 +183,6 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-
-}
-
-.main-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
 
 }
 
